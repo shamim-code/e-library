@@ -1,0 +1,197 @@
+
+.link-color {
+    color: white;
+}
+
+.slider{
+    
+    height: 400px;
+    width: 700px;
+    margin: 0 auto;
+    background-color: rgb(199, 28, 28);
+    margin-block-start: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.slide-img{
+    height: 400px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.author-section{
+    margin-top: 10px;
+
+}
+
+.author-section h3{
+    background-color: #FFC107;
+    
+}
+
+.authors{
+    display: flex;
+    justify-content: space-around;
+}
+
+.authors div img{
+    height: 100px;
+    width: 150px;
+}
+
+.cardStyle{
+    display: inline-block;
+    margin: 5px;
+}
+
+.cardStyle:hover{
+    box-shadow: 5px 7px 8px rgb(68, 67, 67);
+    transition: 0.3s;
+}
+
+.imgStyle{
+    height: 300px;
+}
+
+.books{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+
+.item{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFC107;
+    border-radius: 3px;
+    padding-top: 10px;
+}
+
+.f-logo{
+    font-size: 30px;
+    color: white;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+.ib{
+    border: none;
+    outline: none;
+    margin: 5px;
+    font-size: 30px;
+}
+
+.f-link{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.fb{
+    color: rgb(47, 47, 177);
+    
+}
+
+.twt{
+    color: rgb(24, 255, 255);
+}
+
+.fb:hover{
+    font-size: 25px;
+    transition: 0.3s;
+}
+
+.twt:hover{
+    font-size: 25px;
+    transition: 0.3s;
+}
+
+/* Create Account */
+
+.CreateForm{
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-right: 10%;
+    height: 550px;
+    background-color: #FFC107;
+    text-align: center;
+    padding-top: 100px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 5px rgb(103, 100, 100);
+    
+}
+
+.labelStyle{
+    font-size: 20px;
+}
+
+
+.container-login{
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+.faq-container{
+    margin: 20px;
+    flex-direction: column;
+    background-color: rgb(60, 154, 236);
+    padding: 10px;
+    justify-content: space-between;
+    border-radius: 3px;
+}
+
+.faq-container button{
+    height: 30px;
+    width: 70px;
+    font-size: 20px;
+}
+
+.offer{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+.about{
+    text-align: center;
+    height: 10 vh;
+    background-color: antiquewhite;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 6px gray;
+    font-size: 20px;
+}
+
+.about ul li{
+    list-style: none;
+}
+
+
+
+
